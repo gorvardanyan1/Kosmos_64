@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #27005D;
+    padding: 10px 20px;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.4)
+}
+
+.header h1 {
+    color: #B9B4C7;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 7px;
+}
+
+.header h1 span {
+    color: #FFC436;
+}
+
+.nav {
+    width: 50%;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.nav li {
+    padding: 10px 20px;
+    position: relative;
+
+}
+
+
+.nav a {
+    text-decoration: none;
+    /* color: #AED2FF; */
+    color: #FF9B50;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.nav li img {
+    position: absolute;
+    opacity: 0;
+    top: 20px;
+    left: 0;
+    transition: 2s;
+}
+
+.nav li:hover img {
+    visibility: visible;
+    opacity: 1;
+    left: 100%;
+    transform: translateX(-100%);
+}
