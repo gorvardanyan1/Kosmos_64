@@ -1,0 +1,53 @@
+.container {}
+
+.container h2 {
+    text-align: center;
+    color: #FFC436;
+    font-size: 35px;
+}
+
+.container section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container div {
+    max-width: 350px;
+}
+
+.container img {
+    /* object-fit: contain; */
+    width: 100%;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.container h3 {
+    font-size: 35px;
+    color: #FF9B50;
+}
+
+.container span {
+    color: #fff;
+}
+
+.container h4 {
+    font-size: 30px;
+    color: #FF9B50;
+}
+
+.container h6 {
+    font-size: 20px;
+    color: #FF9B50;
+}
+
+.services div {
+    overflow: hidden;
+
+}
+
+.services img:hover {
+    transform: scale(1.05);
+   
+}

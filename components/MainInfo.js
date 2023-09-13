@@ -4,7 +4,7 @@ const MainInfo = () => {
         <div className={styles.homeContainer}>
             <div>
                 <h4>We Are The Best</h4>
-                <h2>Lorem Ipsum</h2>
+                <h2>Taxi Services</h2>
             </div>
         </div>
     )

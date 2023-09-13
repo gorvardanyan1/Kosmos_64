@@ -7,7 +7,8 @@
 }
 
 .component h4 {
-    font-size: 25px;
+    color: #FFC436;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -24,6 +25,10 @@
 
 .component section {
     width: 50%;
+}
+
+.component section:first-child {
+    min-width: 430px;
 }
 
 .component section:last-child {

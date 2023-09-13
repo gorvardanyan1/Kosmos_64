@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import MainInfo from '@/components/MainInfo'
 import GagarinInfo from '@/components/GagarinInfo'
+import Services from '@/components/Services'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <section id='mainSection'>
           <MainInfo />
           <GagarinInfo />
+          <Services />
         </section>
 
       </main>
