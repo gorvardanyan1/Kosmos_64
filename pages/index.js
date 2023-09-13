@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import MainInfo from '@/components/MainInfo'
+import GagarinInfo from '@/components/GagarinInfo'
 
 
 export default function Home() {
@@ -13,10 +13,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <main >
         <Navbar />
-        <MainInfo />
+        <section id='mainSection'>
+          <MainInfo />
+          <GagarinInfo />
+        </section>
+
       </main>
     </>
   )

@@ -6,7 +6,6 @@ const MainInfo = () => {
                 <h4>We Are The Best</h4>
                 <h2>Lorem Ipsum</h2>
             </div>
-            {/* <img src="/home.jpg" alt="taxiMainInfo"/> */}
         </div>
     )
 }

@@ -1,0 +1,32 @@
+.component {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.component h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.component p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.component img {
+    width: 100%;
+    min-width: 430px;
+    border-radius: 10px;
+}
+
+.component section {
+    width: 50%;
+}
+
+.component section:last-child {
+    padding: 10px 20px;
+    min-width: 413px;
+}
