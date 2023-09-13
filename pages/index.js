@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import MainInfo from '@/components/MainInfo'
 import GagarinInfo from '@/components/GagarinInfo'
 import Services from '@/components/Services'
+import UsersCounter from '@/components/UsersCounter'
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
           <MainInfo />
           <GagarinInfo />
           <Services />
+          <UsersCounter />
         </section>
 
       </main>
