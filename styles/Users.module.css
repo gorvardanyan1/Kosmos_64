@@ -2,14 +2,14 @@
     margin-top: 100px;
 }
 .container h2 {
-    font-size: 50px;
-    color: #fff;
+    font-size: 60px;
+    color: #FF9B50;
     text-align: center;
 }
 .container h3{
     text-align: center;
-    font-size: 40px;
-    color: #FFC436;
-    text-shadow: 2px 2px 7px ;
-    letter-spacing: 8px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 5px 5px 6px #9400FF;
+   
 }
