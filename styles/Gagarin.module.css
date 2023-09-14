@@ -19,7 +19,7 @@
 }
 
 .component img {
-    width: 100%;
+    width: 100% !important;
     min-width: 430px;
     border-radius: 10px;
 }
@@ -41,6 +41,6 @@
         min-width: 350px;
     }
     .component img {
-        min-width: 350px;
+        min-width: 350px ;
     }
 }

@@ -45,11 +45,11 @@ const Navbar = () => {
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="#about">About</a>
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#services">Services</a>
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                         <li>

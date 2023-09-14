@@ -13,7 +13,7 @@ const UsersCounter = () => {
         }
     }, [user])
     return (
-        <div className={styles.container}>
+        <div id="counter" className={styles.container}>
             <h2>Users</h2>
             <h3>{user}k+</h3>
         </div>

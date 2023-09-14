@@ -2,7 +2,7 @@ import styles from "@/styles/Services.module.css"
 import 'animate.css/animate.min.css';
 const Services = () => {
     return (
-        <div className={styles.container + " " + "animate__animated animate__bounceInRight animate__delay-2s"}>
+        <div id="services" className={styles.container + " " + "animate__animated animate__bounceInRight animate__delay-2s"}>
             <h2>Services</h2>
             <section className={styles.services}>
                 <div>
