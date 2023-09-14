@@ -36,3 +36,11 @@
     padding: 10px 20px;
     min-width: 413px;
 }
+@media screen and (max-width:570px) {
+    .component section:first-child {
+        min-width: 350px;
+    }
+    .component img {
+        min-width: 350px;
+    }
+}
