@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "@/styles/Navbar.module.css"
 import { useState } from 'react';
+import Link from 'next/link';
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -45,15 +46,16 @@ const Navbar = () => {
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            {/* <a href="#about">About</a> */}
+                            <Link href="#about">About</Link>
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <Link href="#services">Services</Link>
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#contacts">Contact</a>
                             <img src="taxi.png" alt="taxiImg" />
                         </li>
                     </ul>
@@ -62,5 +64,4 @@ const Navbar = () => {
         </header>
     )
 }
-
 export default Navbar

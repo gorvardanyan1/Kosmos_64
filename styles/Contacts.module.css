@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    margin-right: 8px;
+}
+
+.container a {
+    color: #FF9B50;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 19px;
+}
