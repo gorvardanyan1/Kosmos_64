@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    background-color: #27005D;
+    margin: 0 auto;
+    width: 50%;
+    height: 250px;
+}
+
+.taxi {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    animation: taxiEarth 5s infinite;
+}
+
+.earth {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    animation: earth 5s infinite;
+}
+
+@keyframes taxiEarth {
+    from {
+        left: 0;
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    to {
+        left: 100%;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes earth {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
