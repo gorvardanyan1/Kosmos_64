@@ -6,7 +6,7 @@ import Services from '@/components/Services'
 import UsersCounter from '@/components/UsersCounter'
 import Contacts from '@/components/Contacts'
 import Loader from '@/components/Loader'
-
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -19,7 +19,16 @@ export default function Home() {
       </Head>
 
       <main>
-
+        <a href="https://t.me/vardanyan_05">
+        <Image src="/telegram.png"
+        className='telegram'
+          width={45}
+          height={45}
+          alt="Telegram"
+          quality={100}
+        />
+        </a>
+       
         <Navbar />
         {/* <Loader /> */}
         <section id='mainSection'>

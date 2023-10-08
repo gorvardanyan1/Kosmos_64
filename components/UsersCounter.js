@@ -5,7 +5,7 @@ const UsersCounter = () => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        // Check if the component is in the viewport
+
         const handleScroll = () => {
             const element = document.getElementById('counter');
             if (element) {

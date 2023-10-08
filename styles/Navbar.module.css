@@ -61,3 +61,10 @@
 
 
 /* src/Navbar.css */
+.tel a {
+    text-decoration: none;
+    color: #FFC436;
+    font-size: 20px;
+    word-spacing:- 1px;
+    font-weight: 800;
+}

@@ -60,7 +60,7 @@ p {
 
 .nav-links li {
     /* margin-right: 1rem; */
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: relative;
     transition: 5s;
 }
@@ -128,5 +128,24 @@ p {
     .nav-links li {
         margin-right: 0;
         margin-bottom: 1rem;
+    }
+}
+
+
+.telegram {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    animation:  telegramAnim 2s infinite alternate;
+    
+}
+
+@keyframes telegramAnim {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(30deg);
     }
 }
