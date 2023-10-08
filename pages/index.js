@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <a href="https://t.me/vardanyan_05">
+        <a href="https://t.me/taxi_cosmos64">
         <Image src="/telegram.png"
         className='telegram'
           width={45}
